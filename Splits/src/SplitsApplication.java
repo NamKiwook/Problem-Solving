@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class SplitsApplication {
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        Splits splits = new Splits();
+
+        int input = s.nextInt();
+
+        splits.makeSplits(input);
+        System.out.print(splits.numberSplits());
+    }
+}
+
+class Splits {
+    private int numberSplits = 0;
+    public void makeSplits(int input) {
+        numberSplits = input / 2 + 1;
+    }
+
+    public int numberSplits() {
+        return numberSplits;
+    }
+}
