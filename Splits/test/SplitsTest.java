@@ -3,14 +3,14 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class SplitsTest {
-    Splits s = new Splits();
+    Splits splits = new Splits();
     @Before
     public void splitsSetup() {
-        s = new Splits();
+        splits = new Splits();
     }
     @Test
     public void splitsTest() {
-        s.makeSplits(7);
-        assertEquals(4,s.numberSplits());
+        splits.makeSplits(7);
+        assertEquals(4, splits.numberSplits());
     }
 }

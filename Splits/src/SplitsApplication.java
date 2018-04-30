@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class SplitsApplication {
     public static void main(String[] args){
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Splits splits = new Splits();
 
-        int input = s.nextInt();
+        int input = scanner.nextInt();
 
         splits.makeSplits(input);
         System.out.print(splits.numberSplits());
