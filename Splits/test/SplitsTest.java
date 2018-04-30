@@ -11,16 +11,16 @@ public class SplitsTest {
     @Test
     public void splitsTest() {
         splits.makeSplits(7);
-        assertEquals(4, splits.numberSplits());
+        assertEquals(4, splits.getNumberSplits());
     }
     @Test
     public void splitsTest2() {
         splits.makeSplits(8);
-        assertEquals(5, splits.numberSplits());
+        assertEquals(5, splits.getNumberSplits());
     }
     @Test
     public void splitsTest3() {
         splits.makeSplits(9);
-        assertEquals(5, splits.numberSplits());
+        assertEquals(5, splits.getNumberSplits());
     }
 }

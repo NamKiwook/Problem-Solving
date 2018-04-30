@@ -8,7 +8,7 @@ public class SplitsApplication {
         int input = scanner.nextInt();
 
         splits.makeSplits(input);
-        System.out.print(splits.numberSplits());
+        System.out.print(splits.getNumberSplits());
     }
 }
 
@@ -18,7 +18,7 @@ class Splits {
         numberSplits = input / 2 + 1;
     }
 
-    public int numberSplits() {
+    public int getNumberSplits() {
         return numberSplits;
     }
 }
