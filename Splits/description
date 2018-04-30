@@ -11,9 +11,8 @@ For example, the weight of the split [1,1,1,1,1] is 5,
 the weight of the split [5,5,3,3,3] is 2 and the weight of the split [9] equals 1.
 For a given n, find out the number of different weights of its Splits.
 
-Input : 
-The first line contains one integer n (1≤n≤10^9).
+Problem Input : The first line contains one integer n (1≤n≤10^9).
 
-Output :
-Output one integer — the answer to the problem.
+Problem Output : Output one integer — the answer to the problem.
 
+Submit Url: http://codeforces.com/contest/964/submission/37737794

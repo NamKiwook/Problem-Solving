@@ -13,4 +13,14 @@ public class SplitsTest {
         splits.makeSplits(7);
         assertEquals(4, splits.numberSplits());
     }
+    @Test
+    public void splitsTest2() {
+        splits.makeSplits(8);
+        assertEquals(5, splits.numberSplits());
+    }
+    @Test
+    public void splitsTest3() {
+        splits.makeSplits(9);
+        assertEquals(5, splits.numberSplits());
+    }
 }
