@@ -11,6 +11,7 @@ Baekjoon, Codeforces etc. Problem-Solving
 ### Simple Math
     - Splits
     - Messages 
+    - Greedy Arkady
     
 ### Sorting
     -
