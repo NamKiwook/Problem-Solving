@@ -17,7 +17,7 @@ Baekjoon, Codeforces etc. Problem-Solving
     -
     
 ### Greedy
-    -
+    - Single-use Stones
     
 ## Reference
 - Baekjoon Url : https://www.acmicpc.net/
