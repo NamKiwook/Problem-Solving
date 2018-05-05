@@ -6,9 +6,11 @@
 # Reference httpsintellij-support.jetbrains.comhcen-usarticles206544839
 
 # User-specific stuff
+.idea
 .ideaworkspace.xml
 .ideatasks.xml
 .ideadictionaries
+.workspace.xml
 
 # Sensitive or high-churn files
 .ideadataSources
