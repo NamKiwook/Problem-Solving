@@ -10,7 +10,6 @@ public class QuestApplication {
         BufferedReader br = new BufferedReader(isr);
         StringTokenizer st = new StringTokenizer(br.readLine());
         Quest quest = new Quest();
-
         int N = Integer.parseInt(st.nextToken());
         st = new StringTokenizer(br.readLine());
 
@@ -27,13 +26,11 @@ public class QuestApplication {
             } else {
                 System.out.println(quest.numberRequire(Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken())));
             }
-        }
-
     }
+
+}
 }
 class Quest {
-    private static TreeMap<Integer,Boolean> tm = new TreeMap<>();
-
     public void inputQuest(int index) {
         tm.put(index,true);
     }
