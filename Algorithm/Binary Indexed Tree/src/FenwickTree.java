@@ -1,6 +1,6 @@
 public class FenwickTree {
     private int[] tree;
-    public FenwickTree (int[] arr, int n) {
+    public FenwickTree (int n) {
         tree = new int[n+1];
     }
     public int sum(int index) {
