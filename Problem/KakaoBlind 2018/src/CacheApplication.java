@@ -22,6 +22,7 @@ public class CacheApplication {
         System.out.print(c.calc(n,inputArr));
     }
 }
+
 class Cache{
     final int CacheHit = 1;
     final int CacheMiss = 5;

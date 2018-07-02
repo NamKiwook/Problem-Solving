@@ -28,6 +28,7 @@ public class SecretMapApplication{
         return;
     }
 }
+
 class SecretMap {
     int[] arr1;
     int[] arr2;

@@ -11,7 +11,7 @@ public class BrianWorryTest {
         assertEquals("invalid",br.solution("AxAxAxAoBoBoB"));
         assertEquals("invalid",br.solution("ASDdASDSADa"));
         assertEquals("A ABC A",br.solution("AaAbBbCaA"));
-        assertEquals("SS VS VD",br.solution("AaVVVaSSVgSVDD"));
+        assertEquals("A VVV SS VS VDD",br.solution("AaVVVaSSVgSVDD"));
 
     }
 }

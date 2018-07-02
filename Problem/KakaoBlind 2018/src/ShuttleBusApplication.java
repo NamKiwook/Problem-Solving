@@ -1,8 +1,8 @@
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class ShuttleBusApplication {
 }
+
 class ShuttleBus{
     public String calc(int n, int t, int m, String[] timetable) {
         int[] minute = new int[timetable.length];

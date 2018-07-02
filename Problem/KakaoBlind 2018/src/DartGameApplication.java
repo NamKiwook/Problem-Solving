@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class DartGameApplication {
     public static void main(String[] args) throws IOException {
@@ -10,6 +9,7 @@ public class DartGameApplication {
         System.out.print(dg.calc(br.readLine()));
     }
 }
+
 class DartGame{
     public int calc(String input) {
         int[] result = new int[3];

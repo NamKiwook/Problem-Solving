@@ -1,5 +1,5 @@
 import org.junit.Before;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
