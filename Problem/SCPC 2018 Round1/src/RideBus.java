@@ -51,7 +51,6 @@ public class RideBus {
                     Answer = windowSize;
                 pL++;
                 windowSize--;
-
             }
 			/*
 			   Implement your algorithm here.
