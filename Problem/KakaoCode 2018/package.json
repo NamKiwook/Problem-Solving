@@ -1,0 +1,16 @@
+{
+  "name": "kakaocode-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "PrizeHunter": "node ./src/PrizeHunter",
+    "Dolls": "node ./src/Dolls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
