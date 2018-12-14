@@ -3,7 +3,7 @@ var inputData = fs.readFileSync('./dev/1011').toString().split(/\r\n|\r|\n/);
 
 var T = parseInt(inputData[0]);
 
-for(var i = 1; i <= T; i++) {
+for (var i = 1; i <= T; i++) {
   var x = parseInt(inputData[i].split(' ')[0]);
   var y = parseInt(inputData[i].split(' ')[1]);
   var length = y - x;
@@ -12,9 +12,7 @@ for(var i = 1; i <= T; i++) {
   var remainder = length - (maxK * maxK);
   var result = 2 * maxK - 1;
 
-  if(remainder <= maxK && remainder !== 0) {
-    result++;
-  } else if(remainder > maxK) {
+  if (remainder > 0) {
     result += Math.ceil(remainder / maxK);
   }
   console.log(result);
