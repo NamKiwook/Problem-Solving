@@ -16,4 +16,5 @@ for (var i = 1; i <= T; i++) {
     result += Math.ceil(remainder / maxK);
   }
   console.log(result);
+
 }
