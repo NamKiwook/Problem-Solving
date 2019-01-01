@@ -3,7 +3,7 @@ function solution(board) {
   let searchedInfo;
   while(searchedInfo = searchErasable(board)) {
     answer++;
-    eraseBoard(board,searchedInfo);
+    eraseBlock(board,searchedInfo);
   }
   return answer;
 }
@@ -54,7 +54,7 @@ function searchErasable(board) {
   return false;
 }
 
-function eraseBoard(board, info) {
+function eraseBlock(board, info) {
   switch(info.shape) {
     case '_l' :
       board[info.x][info.y] = 0;
